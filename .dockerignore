@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints
+*.ipynb
+*.log
+*.csv
+*.docx
+.git
+.gitignore
+.venv
+venv
+.DS_Store

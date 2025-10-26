@@ -1,0 +1,8 @@
+# Ignore large data files
+AIML Dataset.csv
+*.csv
+
+# Jupyter checkpoints and temp files
+.ipynb_checkpoints/
+__pycache__/
+*.pkl

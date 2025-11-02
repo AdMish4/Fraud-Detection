@@ -17,3 +17,5 @@ This project demonstrates data preprocessing, model training (using Logistic Reg
 - Pandas, NumPy, Scikit-learn, XGBoost
 - Matplotlib, Seaborn
 - Docker
+
+**Live Demo**: https://fraud-detection-3p0z.onrender.com/

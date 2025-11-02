@@ -25,5 +25,8 @@ COPY . .
 # Expose the Streamlit port
 EXPOSE 8501
 
-# Set a default command for Render (uses its PORT environment variable)
-CMD streamlit run fraud_detection.py --server.port $PORT --server.headless true
+# Default port (used if $PORT not provided)
+ENV PORT=8501
+
+# Run Streamlit app
+CMD streamlit run fraud_detection.py --server.port $PORT --server.address 0.0.0.0 --server.headless true

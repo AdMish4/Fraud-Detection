@@ -6,3 +6,6 @@ AIML Dataset.csv
 .ipynb_checkpoints/
 __pycache__/
 *.pkl
+
+# Ignore documentation file
+fraud_detection_doc.docx
